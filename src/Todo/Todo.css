@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+}
+.todo-input{
+    padding-left: 10px;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px solid white;
+  background-color: aliceblue;
+}
+
+.input-div {
+  height: 100%;
+}
+
+input {
+  border: none;
+  background-color: aliceblue;
+  color: blue;
+  height: 90%;
+  font-size: large;
+}
+input:focus {
+  outline: none;
+}
+.add-btn {
+  border: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(26, 228, 228);
+}
+.btn {
+  height: 100%;
+  background-color: rgb(26, 228, 228);
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+}
